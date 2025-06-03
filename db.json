@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Frank",
+      "email": "frank.starren@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Lisa",
+      "email": "lisa@example.com",
+      "role": "user"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Sport"
+    },
+    {
+      "id": "2",
+      "name": "Games"
+    },
+    {
+      "id": "3",
+      "name": "Relaxation"
+    },
+    {
+      "id": "4",
+      "name": "Music"
+    },
+    {
+      "id": "5",
+      "name": "Art"
+    },
+    {
+      "id": "6",
+      "name": "Workshop"
+    },
+    {
+      "id": "7",
+      "name": "Lezing"
+    },
+    {
+      "id": "8",
+      "name": "Film & Theater"
+    },
+    {
+      "id": "9",
+      "name": "Eten & Drinken"
+    },
+    {
+      "id": "10",
+      "name": "Natuur"
+    },
+    {
+      "id": "11",
+      "name": "Netwerken"
+    },
+    {
+      "id": "12",
+      "name": "Creatief"
+    },
+    {
+      "id": "13",
+      "name": "Familie"
+    },
+    {
+      "id": "14",
+      "name": "Vrijwilligerswerk"
+    },
+    {
+      "id": "15",
+      "name": "Technologie"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "title": "VOORBEELD-Fietsen in Limburg",
+      "description": "Verken de heuvels van Zuid-Limburg.",
+      "image": "/images/fietstocht.jpg",
+      "date": "2025-06-01",
+      "location": "Bunde",
+      "categoryIds": [
+        1
+      ],
+      "createdBy": 1,
+      "approved": true
+    },
+    {
+      "id": "2",
+      "title": "VOORBEELD-Gamecon Maastricht",
+      "description": "De grootste LAN-party van Limburg!",
+      "image": "/images/gamecon.jpg",
+      "date": "2025-07-12",
+      "location": "Maastricht",
+      "categoryIds": [
+        2
+      ],
+      "createdBy": 2,
+      "approved": true
+    },
+    {
+      "id": "3",
+      "title": "VOORBEELD-Outdoor Karten",
+      "description": "Scheur door de bochten in Vaals!",
+      "image": "/images/Outdoor-karting.jpg",
+      "date": "2025-05-17",
+      "location": "Vaals",
+      "categoryIds": [
+        2
+      ],
+      "createdBy": 1,
+      "approved": true
+    },
+    {
+      "id": "4",
+      "title": "VOORBEELD-Disco",
+      "date": "2025-05-24",
+      "location": "Bunde",
+      "categoryIds": [
+        3
+      ],
+      "image": "/images/Disco.jpg",
+      "description": "Shine bright like a disco ball! Laat je innerlijke danser los en vier de gouden eeuw van de dansvloer! Verwacht confetti, hits en een onvergetelijke avond!",
+      "createdBy": 1,
+      "approved": true
+    }
+  ]
+}
