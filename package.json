@@ -1,13 +1,7 @@
 {
-  "name": "BuzzOn!",
+  "name": "buzzon-frontend",
   "version": "1.1.0",
-  "description": "BuzzOn! Event App",
   "author": "Frank Starren",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
   "dependencies": {
     "@chakra-ui/icons": "^2.2.4",
     "@chakra-ui/react": "^2.8.0",
@@ -21,6 +15,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
+    "concurrently": "^8.2.0",
+    "json-server": "^1.0.0-beta.3",
     "vite": "^6.3.1"
   }
 }
