@@ -86,18 +86,3 @@ public/
 - Afbeeldingen worden handmatig door de beheerder toegevoegd wegens copyright-overwegingen.
 - De app is bedoeld voor demonstratie- en opleidingsdoeleinden.
 
-<<<<<<< HEAD
-
-
-=======
-## Contact
-
-Voor vragen of bijdragen: open een issue of neem contact op via de contactpagina in de app!
-# BuzzOn_FrontEnd
-<<<<<<< HEAD
-# BuzzOn_FrontEnd
-# BuzzOn_FrontEnd
->>>>>>> 1976148 (Initial commit: nieuwe frontend structuur)
-=======
-#
->>>>>>> de8861e (Initial commit)
