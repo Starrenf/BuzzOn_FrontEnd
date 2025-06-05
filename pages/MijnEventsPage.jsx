@@ -9,7 +9,7 @@ import {
   Button,
   Spinner
 } from "@chakra-ui/react";
-import { useAuth } from "../AuthContext";
+import { useAuth } from "../src/AuthContext";
 import { useAppContext } from "../src/AppContext";
 import { Link } from "react-router-dom";
 
