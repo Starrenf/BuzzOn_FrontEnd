@@ -4,7 +4,7 @@ import {
   Textarea, Heading, useToast, VStack, Spinner, Text, List, ListItem
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
-import { useAppContext } from "../context/AppContext";
+import { useAppContext } from "../AppContext";
 import { generateWithGemini } from "../utils/gemini";
 
 export default function AddEventPage() {
