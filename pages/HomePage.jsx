@@ -8,7 +8,7 @@ import {
   SimpleGrid
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import { useAppContext } from "../context/AppContext";
+import { useAppContext } from "../AppContext";
 import { motion } from "framer-motion";
 
 const MotionImage = motion(Image);
