@@ -4,7 +4,7 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import { RouterProvider } from "react-router-dom";
 import { AppProvider } from "./AppContext";
 import { AuthProvider } from "./AuthContext";
-import router from "../utils/router.jsx"; 
+import router from "../router.jsx"; 
 
 const theme = extendTheme({
   styles: {
