@@ -9,8 +9,8 @@ import {
   Button,
   Spinner
 } from "@chakra-ui/react";
-import { useAuth } from "../context/AuthContext";
-import { useAppContext } from "../context/AppContext";
+import { useAuth } from "../AuthContext";
+import { useAppContext } from "../src/AppContext";
 import { Link } from "react-router-dom";
 
 export default function MijnEventsPage() {
