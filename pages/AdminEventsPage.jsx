@@ -3,7 +3,7 @@ import React from 'react';
 import {
   Box, Heading, Stack, Text, Button, Badge
 } from '@chakra-ui/react';
-import { useAppContext } from '../context/AppContext';
+import { useAppContext } from '../AppContext';
 
 const AdminEventsPage = () => {
   const { events, setEvents, users } = useAppContext();
