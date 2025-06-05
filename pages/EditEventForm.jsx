@@ -5,7 +5,7 @@ import {
   Textarea, Heading, Spinner
 } from '@chakra-ui/react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useAppContext } from '../context/AppContext';
+import { useAppContext } from '../AppContext';
 
 const EditEventForm = () => {
   const { id } = useParams();
