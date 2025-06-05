@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import { RouterProvider } from "react-router-dom";
-import { AppProvider } from "./src/AppContext";
-import { AuthProvider } from "./src/AuthContext";
+import { AppProvider } from "./AppContext";
+import { AuthProvider } from "./AuthContext";
 import router from "../utils/router.jsx"; 
 
 const theme = extendTheme({
